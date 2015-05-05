@@ -1,0 +1,30 @@
+body { 
+    margin: 0; 
+   }
+    .parent {
+   width: 150px;
+   height: 250px;
+    border: 10px solid green;
+    margin: 100px;
+    background: #FFFFFF; 
+	padding: 0px;
+      } 
+   .child {
+   width: 150px;
+   height: 120px;
+   background: #3333FF;
+    }
+	.parents {
+    width: 200px;
+    border: 10px solid purple;
+	display: inline-block; 
+    background: red; 
+    margin: 100px; 
+	float:left
+	}
+   .childs {
+   height: 100px;
+    width: 100px;
+    background: green;
+	float: right;
+   }
